@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">消臭力アプリ</string>
+    <string name="sho">　消　</string>
+    <string name="shu">　臭　</string>
+    <string name="riki">　力　</string>
+    <string name="together">ご一緒に</string>
+    <string name="tweet">つぶやく</string>
+    <string name="full_1">フル１</string>
+    <string name="full_2">フル２</string>
+    <string name="quiz">クイズ</string>
+    <string name="shoshuriki">　消～臭～力～　</string>
+    <string name="name">ナマエダケデモ・・</string>
+    <string name="thanks">　アリガトウ！　</string>
+    <string name="sing">「消～臭～」と歌ってください</string>
+    <string name="error_activity">アクティビティが見つかりませんでした。</string>
+    <string name="q_name">男の子の名前は？</string>
+    <string name="correct">正解！！</string>
+    <string name="incorrect">残念。。</string>
+    <string name="notgood">もう少し上手に唄ってね</string>
+    <string name="logout">ログアウト</string>
+    <string name="tweetcont">消～臭～力～ #消臭力アプリ</string>
+    <string name="complete">つぶやきました</string>
+    <string name="uncomplete">失敗しました</string>
+</resources>

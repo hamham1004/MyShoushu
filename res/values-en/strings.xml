@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Sho-Shu-Power App </string>
+    <string name="sho">　Sho　</string>
+    <string name="shu">　Shu　</string>
+    <string name="riki">　Power　</string>
+    <string name="together">Together</string>
+    <string name="tweet">Tweet</string>
+    <string name="full_1">Full_1</string>
+    <string name="full_2">Full_2</string>
+    <string name="quiz">Quiz</string>
+    <string name="shoshuriki">　Sho-Shu-Power　</string>
+    <string name="name">Remember my name</string>
+    <string name="thanks">Thank you!!</string>
+    <string name="sing">Please sing "Sho-Shu"</string>
+    <string name="error_activity">Activity could not be found.</string>
+    <string name="q_name">What is the name of the boy?</string>
+    <string name="correct">Correct answer!!</string>
+    <string name="incorrect">Incorrect answer..</string>
+    <string name="notgood">Not good..</string>
+    <string name="logout">Logout</string>
+    <string name="tweetcont">Sho-Shu-Power #消臭力アプリ</string>
+    <string name="complete">Tweet complete</string>
+    <string name="uncomplete">Tweet error</string>
+</resources>

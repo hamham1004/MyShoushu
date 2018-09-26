@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<ViewFlipper android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/viewflipper">
+
+		//画面1
+
+		<LinearLayout android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:gravity="bottom|center" android:background="@drawable/miguel">
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+    	    	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bButton_mic1" android:text="@string/together"></Button>
+       	    	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tweetLogin" android:text="@string/tweet"></Button>
+    	    </LinearLayout>
+	    	<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+    	    	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♪　" android:id="@+id/bButton1"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♭　" android:id="@+id/bButton2"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♬　" android:id="@+id/bButton3"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　Ａ　" android:id="@+id/bButton4"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　Ｂ　" android:id="@+id/bButton5"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　Ｃ　" android:id="@+id/bButton6"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sho" android:id="@+id/bButton7"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shu" android:id="@+id/bButton8"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/riki" android:id="@+id/bButton9"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+    		    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/full_1" android:id="@+id/bButton61"></Button>
+				<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bButton10" android:background="@drawable/st"></Button>
+				<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/full_2" android:id="@+id/bButton62"></Button>
+			</LinearLayout>
+		</LinearLayout>
+
+		//画面2
+
+		<LinearLayout android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:gravity="bottom|center" android:background="@drawable/francisco">
+
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♪　" android:id="@+id/bButton11"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♭　" android:id="@+id/bButton12"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♬　" android:id="@+id/bButton13"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sho" android:id="@+id/bButton14"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shu" android:id="@+id/bButton15"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/riki" android:id="@+id/bButton16"></Button>
+    		</LinearLayout>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bButton17" android:background="@drawable/st"></Button>
+		</LinearLayout>
+
+		//画面3
+
+		<LinearLayout android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:gravity="bottom|center" android:background="@drawable/tomas">
+
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♪　" android:id="@+id/bButton21"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♭　" android:id="@+id/bButton22"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♬　" android:id="@+id/bButton23"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sho" android:id="@+id/bButton24"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shu" android:id="@+id/bButton25"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/riki" android:id="@+id/bButton26"></Button>
+    		</LinearLayout>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bButton27" android:background="@drawable/st"></Button>
+		</LinearLayout>
+
+		//画面4
+
+		<LinearLayout android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:gravity="bottom|center" android:background="@drawable/americo">
+
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♪　" android:id="@+id/bButton31"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♭　" android:id="@+id/bButton32"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♬　" android:id="@+id/bButton33"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sho" android:id="@+id/bButton34"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shu" android:id="@+id/bButton35"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/riki" android:id="@+id/bButton36"></Button>
+    		</LinearLayout>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bButton37" android:background="@drawable/st"></Button>
+		</LinearLayout>
+
+		//画面5
+
+		<LinearLayout android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:gravity="bottom|center" android:background="@drawable/carlos">
+
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♪　" android:id="@+id/bButton41"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♭　" android:id="@+id/bButton42"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♬　" android:id="@+id/bButton43"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sho" android:id="@+id/bButton44"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shu" android:id="@+id/bButton45"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/riki" android:id="@+id/bButton46"></Button>
+    		</LinearLayout>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bButton47" android:background="@drawable/st"></Button>
+		</LinearLayout>
+
+		//画面6
+
+		<LinearLayout android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:gravity="bottom|center" android:background="@drawable/live">
+    	    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quiz" android:id="@+id/bButton_mic2"></Button>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♪　" android:id="@+id/bButton51"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♭　" android:id="@+id/bButton52"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♬　" android:id="@+id/bButton53"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shoshuriki" android:id="@+id/bButton54"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name" android:id="@+id/bButton55"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thanks" android:id="@+id/bButton56"></Button>
+    		</LinearLayout>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bButton57" android:background="@drawable/st"></Button>
+		</LinearLayout>
+
+	</ViewFlipper>
+</LinearLayout>
